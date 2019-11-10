@@ -1,0 +1,23 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+.navbar {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 200;
+    box-shadow: 0px 1px 3px #2a2a2a;
+    background: image_url('leaves.png');
+}
+  
+.navbar-inverse a.navbar-brand {
+    font-family: 'Amatic SC', cursive;
+}
+
+.hero {
+    background: image_url('hero.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+  }
+
