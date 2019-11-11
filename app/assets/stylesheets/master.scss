@@ -3,10 +3,26 @@
 
 .navbar {
     font-family: 'Amatic SC', cursive;
-    font-size: 40 px;
     font-weight: 200;
     box-shadow: 0px 1px 3px #2a2a2a;
     background: image_url('leaves.png');
+}
+
+.navbar-brand {
+    font-family: 'Parisienne', cursive;
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 2.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 25px;
 }
   
 .navbar-inverse a.navbar-brand {
@@ -64,7 +80,12 @@ body {
     -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
     -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
     box-shadow: 1px 1px 2px 0 #d0d0d0;
-    background: #BBCAD7;
+    background: #DF9E8D;
     border: 1px solid #ccc;
     border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+    padding: 10px;
 }
+
+.booyah-box h2, .booyah-box h1 {
+    margin: 10px;
+  }
