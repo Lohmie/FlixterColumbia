@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 body {
     background: image_url('wheat.png');
     font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-    color: white;
+    color: rgb(14, 3, 3);
 }
 
 .booyah-box {
@@ -115,7 +115,7 @@ body {
   }
 
   .lesson a {
-    color: white;
+    color: rgb(185, 113, 113);
     font-family: "Helvetica Neue", Helvetica;
     font-weight: 100;
     font-size: 15px;
@@ -146,8 +146,8 @@ body {
   }
 
   .lessons li {
-    background: black;
-    color: white;
+    background: rgb(245, 158, 158);
+    color: rgb(0, 0, 0);
     margin: 10px;
     font-family: "Helvetica Neue", Helvetica;
     font-weight: 100;

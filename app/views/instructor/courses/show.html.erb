@@ -32,7 +32,7 @@
   <h1 class="text-center"><%= current_course.title %></h1>
   <%= image_tag @current_course.image.to_s, class: 'img-fluid' %>
 
-   <div class="text-center">
+  <div class="text-center">
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#newSectionModal">
       Add a new section...
@@ -84,7 +84,7 @@
 </div>
 
 
-<!-- New Section Modal -->
+
 <div class="modal fade" id="newSectionModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -107,7 +107,7 @@
   </div>
 </div>
 
-<!-- New Lessons Modal -->
+
 <div class="modal fade" id="newLessonModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
